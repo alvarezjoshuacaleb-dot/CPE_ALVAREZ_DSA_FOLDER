@@ -4,38 +4,35 @@
 
 # Data Structures and Algorithms E-Portfolio
 
-Welcome to my portfolio, showcasing my C++ implementations, data structures, and algorithm analysis.
+**CPE-010 · Technological Institute of the Philippines**
 
-## Technological Institute of the Philippines
+A collection of my C++ implementations, data structure exercises, and algorithm analysis.
 
-**Click PRELIM, MIDTERM or FINALS on the banner above to open that term's folder.**
-
-<img src="https://img.shields.io/badge/C%2B%2B-B6FF00?style=for-the-badge&labelColor=000000" alt="C++">
-<img src="https://img.shields.io/badge/Git-B6FF00?style=for-the-badge&labelColor=000000" alt="Git">
-<img src="https://img.shields.io/badge/GitHub-B6FF00?style=for-the-badge&labelColor=000000" alt="GitHub">
-<img src="https://img.shields.io/badge/VS_Code-B6FF00?style=for-the-badge&labelColor=000000" alt="VS Code">
+[Overview](#overview) · [Course](#about-the-course) · [Structure](#repository-structure) · [Featured Work](#featured-work) · [Run the Code](#how-to-compile-and-run) · [Contact](#contact)
 
 </div>
 
 ---
 
-## Student Information
+## Overview
 
-| Information | Details |
+| | |
 |---|---|
 | **Name** | Joshua Caleb P. Alvarez |
+| **Program** | Bachelor of Science in Computer Engineering |
 | **Section** | CPE21S1 |
 | **Course** | CPE-010 – Data Structures and Algorithms |
-| **Program** | Bachelor of Science in Computer Engineering |
 | **Instructor** | Engr. Jimlord Quejado |
-| **Contact** | [qjcalvarez@tip.edu.ph](mailto:qjcalvarez@tip.edu.ph) · [alvarezjoshuacaleb@gmail.com](mailto:alvarezjoshuacaleb@gmail.com) |
+| **Academic Year** | 2026–2027 |
 
-## About this course
+This repository contains my hands-on activities, exercises, and projects for the course, organized by term.
 
-CPE-010 teaches how to solve computational problems by organizing data efficiently: algorithm complexity, core data structures (stacks, queues, linked lists, trees, heaps, graphs), searching and hashing, and sorting. The goal is to design algorithms for each data structure and apply them in C++ programs that solve real engineering problems.
+## About the Course
+
+CPE-010 covers how to solve computational problems by organizing data efficiently. Topics include algorithm efficiency and complexity, abstract data types (stacks, queues, linked lists, trees, heaps, graphs), searching and hashing, and sorting. The goal is to design algorithms for each data structure and apply them in C++ programs that solve engineering problems.
 
 <details>
-<summary>Read the full course description</summary>
+<summary>Full course description</summary>
 
 <br>
 
@@ -43,64 +40,67 @@ This course focuses on solving computational problems that manipulate collected 
 
 </details>
 
-## About This Repository
-
-This repository contains my hands-on activities, exercises, and projects for CPE-010 – Data Structures and Algorithms at the Technological Institute of the Philippines.
-
-**Academic Year:** 2026–2027
-
-## Progress Tracker
-
-| Term | Activities | Status |
-|---|---|---|
-| [PRELIM](./PRELIM) | 1.1 – 5.1 | 🔄 In progress |
-| [MIDTERM](./MIDTERM) | 6.1 – 9.1 | ⏳ Upcoming |
-| [FINALS](./FINALS) | 10.1 – 14.1 | ⏳ Upcoming |
-
-> ✅ Done · 🔄 In progress · ⏳ Upcoming
-
 ## Repository Structure
 
 | Folder | Contents |
 |---|---|
-| [PRELIM](./PRELIM) | Hands-on Activities 1.1 – 5.1 |
-| [MIDTERM](./MIDTERM) | Hands-on Activities 6.1 – 9.1 |
-| [FINALS](./FINALS) | Hands-on Activities 10.1 – 14.1 |
-| [assets](./assets) | Banner and images used in this README |
+| [`PRELIM`](./PRELIM) | Hands-on Activities 1.1 – 5.1 |
+| [`MIDTERM`](./MIDTERM) | Hands-on Activities 6.1 – 9.1 |
+| [`FINALS`](./FINALS) | Hands-on Activities 10.1 – 14.1 |
+| [`assets`](./assets) | Images used in this README |
+
+```
+E-PORTFOLIO/
+├── README.md
+├── assets/
+├── PRELIM/      Activities 1.1 – 5.1
+├── MIDTERM/     Activities 6.1 – 9.1
+└── FINALS/      Activities 10.1 – 14.1
+```
 
 ## Featured Work
 
 ### Linear Search: Array vs. Linked List
 
-A C++ program that generates a random dataset, then runs linear search on both an array and a linked list and counts how many comparisons each one needs to find a number.
+A C++ program that generates a random dataset and runs linear search on both an array and a linked list, counting how many comparisons each one needs to find a target number.
 
-- **Concepts:** linear search, arrays, linked lists, counting comparisons (time complexity)
-- **Code:** [`View source`](./PRELIM)
-- **Sample output:**
+- **Concepts:** linear search, arrays, linked lists, time complexity
+- **Source:** [`PRELIM`](./PRELIM)
 
-<!-- Save a screenshot of your program output as assets/linear-search-output.png, then remove these comment markers:
-<img src="assets/linear-search-output.png" width="80%" alt="Linear search program output">
--->
+## How to Compile and Run
 
-## What I Learned
+All programs are written in C++ and can be compiled with `g++`.
 
-### PRELIM
-- *(Write 2–3 bullets here: what you learned, what was hard, what you'd improve.)*
+```bash
+g++ main.cpp -o main
+```
 
-### MIDTERM
-- *(Fill in after the midterm activities.)*
+Then run the program:
 
-### FINALS
-- *(Fill in after the finals activities.)*
+```bash
+./main        # macOS / Linux
+main          # Windows
+```
 
-## Skills and Tools
+Replace `main.cpp` with the name of the activity file you want to run.
 
-C++ · Arrays · Linked Lists · Searching Algorithms · Algorithm Analysis · Git and GitHub · VS Code
+## Course Outcomes
+
+- Analyze the efficiency of algorithms
+- Implement core data structures in C++: arrays, linked lists, stacks, queues, trees, and heaps
+- Apply searching and sorting algorithms and compare their performance
+- Design programs that solve engineering-related problems using appropriate data structures
+
+## Contact
+
+- **School email:** [qjcalvarez@tip.edu.ph](mailto:qjcalvarez@tip.edu.ph)
+- **Personal email:** [alvarezjoshuacaleb@gmail.com](mailto:alvarezjoshuacaleb@gmail.com)
+- **GitHub:** [alvarezjoshuacaleb-dot](https://github.com/alvarezjoshuacaleb-dot)
 
 ---
 
 <div align="center">
 
-Made by **Joshua Caleb P. Alvarez** · CPE21S1 · TIP
+© 2026 Joshua Caleb P. Alvarez · CPE21S1 · Technological Institute of the Philippines
 
 </div>
