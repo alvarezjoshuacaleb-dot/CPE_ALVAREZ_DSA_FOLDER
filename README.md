@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="dsa-banner.png" width="100%" alt="Data Structures and Algorithms Portfolio Banner">
+</p>
+
+# Data Structures and Algorithms E-Portfolio
+
+Welcome to my portfolio, showcasing my C++ implementations,
+data structures, and algorithm analysis.
+
+
 # Technological Institute of the Philippines
 
 ## Student Information
