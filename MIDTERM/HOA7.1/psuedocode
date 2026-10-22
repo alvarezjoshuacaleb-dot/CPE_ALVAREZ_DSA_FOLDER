@@ -1,0 +1,44 @@
+//BEGIN
+
+DECLARE votes[100]
+
+DECLARE names for 5 candidates
+
+GENERATE 100 random votes
+    Each vote is a number from 1 to 5
+
+DISPLAY the original votes
+
+SORT the votes using Insertion Sort
+
+DISPLAY the sorted votes
+
+SET position = 0
+SET mostVotes = 0
+SET winner = 0
+
+WHILE position is less than 100
+
+    GET the current vote number
+    SET total = 1
+
+    MOVE to the next position
+
+    WHILE the next vote is the same as the current vote
+        ADD 1 to total
+        MOVE to the next position
+    END WHILE
+
+    DISPLAY the candidate name and total votes
+
+    IF total is greater than mostVotes
+        SET mostVotes = total
+        SET winner = current vote number
+    END IF
+
+END WHILE
+
+DISPLAY the winning candidate
+DISPLAY the highest number of votes
+
+END
