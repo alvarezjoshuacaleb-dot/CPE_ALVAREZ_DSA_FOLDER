@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner_top.png" width="100%" alt="Data Structures and Algorithms"><br><a href="./PRELIM"><img src="assets/prelim.png" width="33.3%" alt="PRELIM"></a><a href="./MIDTERM"><img src="assets/midterm.png" width="33.3%" alt="MIDTERM"></a><a href="./FINALS"><img src="assets/finals.png" width="33.3%" alt="FINALS"></a>
+<img src="assets/banner_top%20(1).png" width="100%" alt="Data Structures and Algorithms"><br><a href="./PRELIM"><img src="assets/prelim%20(1).png" width="33.3%" alt="PRELIM"></a><a href="./MIDTERM"><img src="assets/midterm%20(1).png" width="33.3%" alt="MIDTERM"></a><a href="./FINALS"><img src="assets/finals%20(1).png" width="33.3%" alt="FINALS"></a>
 
 # Data Structures and Algorithms E-Portfolio
 
