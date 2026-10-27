@@ -1,12 +1,16 @@
- <div align="center">
+<div align="center">
 
-<img src="assets/banner_top%20(1).png" width="100%" alt="Data Structures and Algorithms E-Portfolio">
+<img src="assets/banner_top.gif" width="100%" alt="Data Structures and Algorithms E-Portfolio">
 
-<a href="./PRELIM"><img src="assets/prelim%20(1).png" width="33%" alt="PRELIM"></a><a href="./MIDTERM"><img src="assets/midterm%20(1).png" width="33%" alt="MIDTERM"></a><a href="./FINALS"><img src="assets/finals%20(1).png" width="33%" alt="FINALS"></a>
+<p align="center">
+  <a href="./PRELIM"><b>PRELIM</b></a> &nbsp;·&nbsp;
+  <a href="./MIDTERM"><b>MIDTERM</b></a> &nbsp;·&nbsp;
+  <a href="./FINALS"><b>FINALS</b></a>
+</p>
 
 # Data Structures and Algorithms E-Portfolio
 
-**Click an icon above to view the submitted documents.**
+**Click a term above to view the submitted documents.**
 
 **CPE-010 · Technological Institute of the Philippines**
 
