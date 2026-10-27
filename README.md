@@ -1,12 +1,7 @@
 <div align="center">
 
-<img src="assets/banner_top.gif" width="100%" alt="Data Structures and Algorithms E-Portfolio">
-
-<p align="center">
-  <a href="./PRELIM"><b>PRELIM</b></a> &nbsp;·&nbsp;
-  <a href="./MIDTERM"><b>MIDTERM</b></a> &nbsp;·&nbsp;
-  <a href="./FINALS"><b>FINALS</b></a>
-</p>
+<img src="assets/banner_title.gif" width="100%" alt="Data Structures and Algorithms E-Portfolio" align="top"><br>
+<a href="./PRELIM"><img src="assets/nav_prelim.gif" width="33.33%" alt="PRELIM" align="top"></a><a href="./MIDTERM"><img src="assets/nav_midterm.gif" width="33.33%" alt="MIDTERM" align="top"></a><a href="./FINALS"><img src="assets/nav_finals.gif" width="33.33%" alt="FINALS" align="top"></a>
 
 # Data Structures and Algorithms E-Portfolio
 
