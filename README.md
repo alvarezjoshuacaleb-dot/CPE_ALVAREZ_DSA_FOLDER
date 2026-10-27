@@ -1,15 +1,18 @@
-<div align="center">
+ <div align="center">
 
-<img src="assets/banner_top%20(1).png" width="100%" alt="Data Structures and Algorithms"><br><a href="./PRELIM"><img src="assets/prelim%20(1).png" width="33.3%" alt="PRELIM"></a><a href="./MIDTERM"><img src="assets/midterm%20(1).png" width="33.3%" alt="MIDTERM"></a><a href="./FINALS"><img src="assets/finals%20(1).png" width="33.3%" alt="FINALS"></a>
+<img src="assets/banner_top%20(1).png" width="100%" alt="Data Structures and Algorithms E-Portfolio">
+
+<a href="./PRELIM"><img src="assets/prelim%20(1).png" width="33%" alt="PRELIM"></a><a href="./MIDTERM"><img src="assets/midterm%20(1).png" width="33%" alt="MIDTERM"></a><a href="./FINALS"><img src="assets/finals%20(1).png" width="33%" alt="FINALS"></a>
 
 # Data Structures and Algorithms E-Portfolio
-**Click the icon (PRELIM,MIDTERM,FINALS) to see submitted documents**
+
+**Click an icon above to view the submitted documents.**
 
 **CPE-010 · Technological Institute of the Philippines**
 
-A collection of my C++ implementations, data structure exercises, and algorithm analysis.
+A collection of my C++ implementations, data structure exercises, algorithm analysis, and hands-on activities.
 
-[Overview](#overview) · [Course](#about-the-course) · [Structure](#repository-structure) · [Featured Work](#featured-work) · [Run the Code](#how-to-compile-and-run) · [Contact](#contact)
+[Overview](#overview) · [About the Course](#about-the-course) · [Repository Structure](#repository-structure) · [Featured Work](#featured-work) · [How to Run](#how-to-compile-and-run) · [Course Outcomes](#course-outcomes) · [Contact](#contact)
 
 </div>
 
@@ -17,7 +20,7 @@ A collection of my C++ implementations, data structure exercises, and algorithm 
 
 ## Overview
 
-| | |
+| Information | Details |
 |---|---|
 | **Name** | Joshua Caleb P. Alvarez |
 | **Program** | Bachelor of Science in Computer Engineering |
@@ -26,18 +29,20 @@ A collection of my C++ implementations, data structure exercises, and algorithm 
 | **Instructor** | Engr. Jimlord Quejado |
 | **Academic Year** | 2026–2027 |
 
-This repository contains my hands-on activities, exercises, and projects for the course, organized by term.
+This repository contains my hands-on activities, exercises, and programming projects for Data Structures and Algorithms, organized according to the academic term.
 
 ## About the Course
 
-CPE-010 covers how to solve computational problems by organizing data efficiently. Topics include algorithm efficiency and complexity, abstract data types (stacks, queues, linked lists, trees, heaps, graphs), searching and hashing, and sorting. The goal is to design algorithms for each data structure and apply them in C++ programs that solve engineering problems.
+CPE-010 focuses on solving computational problems by organizing and processing data efficiently. Topics include algorithm efficiency and complexity, abstract data types, stacks, queues, linked lists, trees, heaps, graphs, searching, hashing, and sorting algorithms.
+
+The course aims to develop skills in designing algorithms, selecting appropriate data structures, and implementing effective C++ programs to solve engineering-related problems.
 
 <details>
-<summary>Full course description</summary>
+<summary><strong>Full Course Description</strong></summary>
 
-<br>
+This course focuses on solving computational problems that manipulate collected data. It studies core data abstractions, data structures, and algorithms that provide a foundation for writing efficient programs.
 
-This course focuses on solving computational problems that manipulate collected data, studying a core set of data abstractions, data structures, and algorithms that provide a foundation for writing efficient programs. The course content includes theoretical topics in algorithmic efficiency and complexity, along with abstract data types, including graphs, networks, trees (including binary and multi-way trees), heaps, stacks, and priority queues. Search topics, including hashing, trees, external search trees (B-trees), and fundamentals of sorting algorithms with external sorting are introduced and compared. The student's outcome is to design algorithms for each data structure and to use data structures and algorithms in the design of an effective program or software application that will solve a particular engineering-related problem using C++.
+The course covers algorithmic efficiency and complexity, abstract data types, graphs, networks, trees, heaps, stacks, priority queues, searching, hashing, B-trees, and internal and external sorting. Students learn to design algorithms and apply data structures in C++ programs that solve engineering-related problems.
 
 </details>
 
@@ -45,63 +50,93 @@ This course focuses on solving computational problems that manipulate collected 
 
 | Folder | Contents |
 |---|---|
-| [`PRELIM`](./PRELIM) | Hands-on Activities 1.1 – 5.1 |
-| [`MIDTERM`](./MIDTERM) | Hands-on Activities 6.1 – 9.1 |
-| [`FINALS`](./FINALS) | Hands-on Activities 10.1 – 14.1 |
+| [`PRELIM`](./PRELIM) | Hands-on Activities 1.1–5.1 |
+| [`MIDTERM`](./MIDTERM) | Hands-on Activities 6.1–9.1 |
+| [`FINALS`](./FINALS) | Hands-on Activities 10.1–14.1 |
 | [`assets`](./assets) | Images used in this README |
 
-```
+### Folder Overview
+
+```text
 E-PORTFOLIO/
 ├── README.md
 ├── assets/
-├── PRELIM/      Activities 1.1 – 5.1
-├── MIDTERM/     Activities 6.1 – 9.1
-└── FINALS/      Activities 10.1 – 14.1
+├── PRELIM/
+├── MIDTERM/
+└── FINALS/
 ```
+
+Each term folder contains the corresponding activities, source codes, and submitted documents.
 
 ## Featured Work
 
 ### Linear Search: Array vs. Linked List
 
-A C++ program that generates a random dataset and runs linear search on both an array and a linked list, counting how many comparisons each one needs to find a target number.
+A C++ program that generates a random dataset and performs linear search on both an array and a linked list. It counts the number of comparisons required to find a target number.
 
-- **Concepts:** linear search, arrays, linked lists, time complexity
-- **Source:** [`PRELIM`](./PRELIM)
+**Concepts applied:**
+- Linear Search
+- Arrays and Linked Lists
+- Data Structures
+- Algorithm Analysis
+- Time Complexity
+
+**Source:** [`PRELIM`](./PRELIM)
 
 ## How to Compile and Run
 
-All programs are written in C++ and can be compiled with `g++`.
+The C++ programs can be compiled using the GNU C++ compiler (`g++`).
+
+### 1. Open the terminal
+
+Navigate to the folder containing the source code.
+
+### 2. Compile the program
 
 ```bash
 g++ main.cpp -o main
 ```
 
-Then run the program:
+Replace `main.cpp` with the actual filename of the program you want to run.
 
-```bash
-./main        # macOS / Linux
-main          # Windows
+### 3. Execute the program
+
+**Windows (PowerShell):**
+
+```powershell
+.\main.exe
 ```
 
-Replace `main.cpp` with the name of the activity file you want to run.
+**macOS / Linux:**
+
+```bash
+./main
+```
+
+Make sure that `g++` is installed and available in your system's PATH.
 
 ## Course Outcomes
 
-- Analyze the efficiency of algorithms
-- Implement core data structures in C++: arrays, linked lists, stacks, queues, trees, and heaps
-- Apply searching and sorting algorithms and compare their performance
-- Design programs that solve engineering-related problems using appropriate data structures
+Through the activities and projects in this repository, I aim to:
+
+- Analyze the efficiency and complexity of algorithms.
+- Implement fundamental data structures in C++.
+- Apply searching and sorting algorithms.
+- Understand stacks, queues, linked lists, trees, heaps, and graphs.
+- Compare algorithm performance using appropriate measurements.
+- Design programs that solve engineering-related problems using suitable data structures and algorithms.
 
 ## Contact
 
-- **School email:** [qjcalvarez@tip.edu.ph](mailto:qjcalvarez@tip.edu.ph)
-- **Personal email:** [alvarezjoshuacaleb@gmail.com](mailto:alvarezjoshuacaleb@gmail.com)
+- **School Email:** [qjcalvarez@tip.edu.ph](mailto:qjcalvarez@tip.edu.ph)
+- **Personal Email:** [alvarezjoshuacaleb@gmail.com](mailto:alvarezjoshuacaleb@gmail.com)
 - **GitHub:** [alvarezjoshuacaleb-dot](https://github.com/alvarezjoshuacaleb-dot)
 
 ---
 
 <div align="center">
 
-© 2026 Joshua Caleb P. Alvarez · CPE21S1 · Technological Institute of the Philippines
+© 2026 Joshua Caleb P. Alvarez · CPE21S1  
+Technological Institute of the Philippines
 
 </div>
